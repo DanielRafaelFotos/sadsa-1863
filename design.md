@@ -1,0 +1,12 @@
+# Daniel Rafael Studio — direção visual
+Referência: Studio Pedro Pastor; navegação curta, fotografia em escala grande, portfólio, história e contato. Identidade original: editorial, romântica, cinematográfica, com tons terrosos.
+
+- Fundo creme `#f8f5ee`, superfícies `#efebe1`, texto carvão `#262823`, oliva `#454735`, dourado suave `#c3ad83`. Na capa, texto creme em foto quente com sombra em gradiente.
+- Playfair Display regular/itálica para manchetes e títulos; DM Sans para texto e navegação, legendas micro em caixa alta com tracking. Marca tipográfica com monograma editorial.
+- Capa em sangria com navegação transparente e carrossel manual, texto alinhado à esquerda. Portfólio em grid editorial de três imagens sem cantos redondos, mini índice numérico, modal de navegação por galeria. Sobre em duas colunas alternadas, contato em bloco oliva, rodapé simples.
+- Margens de 6–9vw, conteúdo limitado a 1280px, respiro vertical de 80–110px, divisórias de 1px. Colunas empilham no celular, com menu acessível e galeria ajustada à tela.
+- Painel em creme/oliva; navegação lateral com formulário em seções, estados de upload e gravação, prévia local e confirmação de publicação. Sessão Google exclusiva para e-mail verificado configurado no servidor.
+- Plano técnico aprovado: apenas web, páginas `/` e `/painel`; tabela `studio_site` e tabelas Better Auth; RPCs `studio.publicSite` público, `studio.owner`, `studio.save` e `studio.presign` exclusivos do proprietário. Upload direto ao armazenamento. Componentes públicos e editor separados; tokens de cores e famílias derivados da configuração publicada.
+
+## Revisão: referência no portfólio atual do Daniel
+Substitui a direção editorial acima na home. A referência do próprio usuário usa fundo preto, retrato horizontal, marca centralizada, links e ícones discretos, seguidos por uma grade compacta de fotografias. Nova direção: preto suave `#090909`, texto `#f3f1ed`, detalhe `#cfbd97`, DM Sans por padrão. Menu alinhado à esquerda e contatos à direita, retrato de Daniel em sangria sem manchete por padrão, seta para a seção Fotografias. Seleção de fotografias do portfólio público do próprio Daniel; grade de quatro colunas, duas no celular e visualização ampliada ao clicar. Sobre e Contato compactos. Mantém autenticação, esquema de dados, uploads e painel; não migra nem sobrescreve conteúdo já salvo. Textos antigos continuam opcionais e editáveis.
